@@ -68,5 +68,6 @@ SampleApp::Application.configure do
   # for heroku
   config.logger = Logger.new(STDOUT)
   config.logger.level = Logger.const_get(ENV['LOG_LEVEL'] ? ENV['LOG_LEVEL'].upcase : 'INFO')
+  config.assets.initialize_on_precompile = false
 
 end
