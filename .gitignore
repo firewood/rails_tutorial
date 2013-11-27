@@ -6,6 +6,8 @@
 
 # Ignore bundler config
 /.bundle
+/.rbenv-gemsets
+/1.9
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
